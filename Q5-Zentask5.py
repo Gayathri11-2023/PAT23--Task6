@@ -8,7 +8,6 @@ def distribute_mangoes(mangoes, students):
         student_bags[current_student].append(mango)
         current_student = (current_student + 1) % students
      return student_bags
-
 mangoes_in_bag = [30,20,13,5,4,12]
 num_students = 3
 result = distribute_mangoes(mangoes_in_bag, num_students)
